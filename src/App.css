@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Akaya Telivigala", monospace, sans-serif;
+    font-size: 22px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 90vh;
+    width: 100%;
+    text-align: center;
+    background-color: #cecbcb;
+    padding: 5px 0;
+}
+h1{
+    color: #262834;
+    font-size: 22px;
+    padding: 8px;
+}
+.container{
+    width: 96%;
+    margin: 0 auto;
+    background-color: #CCCCCC;
+    padding: 10px 5px 5px 5px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+.btns button{
+    flex: 1;
+    padding: 8px;
+    margin: 5px;
+    background-color: #FBFBFB;
+    color: #262834;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    font-weight: 500;
+}
+.btns button.btn{
+    background-color: #0093E9;
+    color: #FBFBFB;
+    font-weight: bold;
+}
+
+textarea{
+    width: calc(100% - 10px);
+    height: calc(100vh - 150px);
+    border: none;
+    outline: none;
+    background-color: #FBFBFB;
+    resize: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    color: #262834;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: 5px 5px 0px 5px;
+    letter-spacing: 0.2px;
+    font-family: monospace, sans-serif;
+    font-size: 20px;
+}
+.docs-container {
+    width: calc(100% - 10px);
+    height: auto;
+    border: none;
+    outline: none;
+    background-color: #FBFBFB;
+    resize: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    color: #262834;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: 5px 5px;
+    letter-spacing: 0.2px;
+    font-family: monospace, sans-serif;
+    font-size: 20px;
+  }
+  .docs-container h1{
+    text-align: left;
+    line-height: 20px;
+    padding-left: 10px;
+  }
+  .docs-container p{
+    text-align: left;
+    line-height: 20px;
+    padding-left: 10px;
+    color: #777777;
+  }
+.ex1{
+background-color: #E8E8E8;
+border: .5px #CACACA solid;
+border-radius: 5px;
+text-align: left;
+justify-content: center;
+padding: 10px;
+margin: 10px;
+display: block;
+
+}
+.ex1 span{
+    font-weight: bold;
+}
